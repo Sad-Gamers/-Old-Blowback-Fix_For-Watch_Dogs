@@ -7,7 +7,7 @@ This small DLL fixes the issue WD has with not playing procedural animations, re
 • Disable Precompiled Headers under Properties/C++/Precompiled Headers.  <br /> 
 • Set the language standard to "ISO C++17 Standard" under Properties/C++/Language.  <br /> 
 • Set your runtime library to "Multi-threaded (/MT)" under Properties/C++/Code Generation.  <br />
-• Make sure you are targetting x64 platform.
+• Make sure you are targeting x64 platform.
 # Acknowledgments
 • This project uses a function coded by github.com/yubie-re in order to allow me to change read/write protections in certain memory regions protected by the game's DRM. <br /> 
 • I use a fixed version of the M1404 shotgun model, provided to me by @vector4782 on discord.
