@@ -3,7 +3,7 @@ This small DLL fixes the issue WD has with not playing procedural animations, re
 ## Version 1.3 Release Notes <br />
 • Fixes a small issue with the idle animations for SMG pistols.  <br /> 
 • Fixes a bug where blowback wouldn't work when too many NPCs are shooting.  <br /> 
-• Fixed compatibility issue with the Steam version of the game  <br /> 
+• Fixed a compatibility issue with the Steam version of the game.  <br /> 
 ### Apparently since the project does not seem to do this on its own <br /> 
 • Disable Precompiled Headers under Properties/C++/Precompiled Headers.  <br /> 
 • Set the language standard to "ISO C++17 Standard" under Properties/C++/Language.  <br /> 
