@@ -14,7 +14,7 @@ void SlideFix::PatchProceduralAnimation() {
 	* procedural wanted to displace it. We then use the regular .MAB animation component to animate the slide.
 	*/
 	pSetProceduralBonePos = SadMemEdit::ByteScan({ 0x41, 0x0F, 0x29, 0x74, 0x04, 0x10 });
-	pSetBonePos = SadMemEdit::ByteScan({ 0x0F, 0x29, 0x4C, 0x0B, 0x10 });
+	pSetBonePos = SadMemEdit::ByteScan({ 0x0F, 0x29, 0x4C, 0x0B, 0x10, 0x48, 0x8B, 0x5c, 0x24, 0x58});
 
 	DWORD64 pVirtualPage = SadMemEdit::AllocateMemory(512);
 	int currentPosition = 0; //this is the "cursor" for writing byte code in pVirtualPage
